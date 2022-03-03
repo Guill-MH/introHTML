@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/aed598aa65.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./app.js"></script>
+    <link rel="stylesheet" href="form.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <title>Cake orbital</title>
+  </head>
+  <body>
+    <main>
+      <div class="father">
+        <div class="logo">
+          <img src="./assets/logo2.png" alt="logo pasteleria" class="size" />
+        </div>
+        <form>
+
+          <div class="sabor">
+            <h3>Escoge un sabor</h3>
+            <label for="menu">Sabores:</label>
+            <select name="menu" class="select-sabor">
+              <option value="1">Chocolate $100</option>
+              <option value="2">Napolitano $100</option>
+              <option value="3">Coco $100</option>
+              <option value="4">Nuez con fresas $100</option>
+              <option value="5">Vainilla $100</option>
+              <option value="6">Tres leches $100</option>
+            </select>
+          </div>
+
+          <div class="adorno">
+            <h3>Agrega adornos a tu pastel</h3>
+            <div class="adorno-2"> 
+            <label for="decoracion">
+              <input type="radio" name="decoracion" value="chispas">
+              Chispas $50
+            </label>
+            <label for="decoracion">
+              <input type="radio" name="decoracion" value="Mermelada">
+              Mermelada $50
+            </label>
+            <label for="decoracion">
+              <input type="radio" name="decoracion" value="Cajeta">
+              Cajeta $50
+            </label>
+          </div>
+          </div>
+
+          <div class="combinacion"> 
+          <h3>Combina tus sabores favoritos</h3>
+          <div class="combinacion-2"> 
+         
+          <label for="topping1">
+            <input type="checkbox" id="topping1" name="topping1" value="Vainilla">
+            Vainilla</label>
+          
+          <label for="topping2">
+            <input type="checkbox" id="topping2" name="topping2" value="Chocolate">
+            Chocolate</label>
+         
+          <label for="topping3">
+            <input type="checkbox" id="topping3" name="topping3" value="Fresa">
+            Fresa</label>
+        </div>
+          </div>
+         
+          <div class="combina-adornos"> 
+            <h3>Combina tus adornos</h3>
+            <div class="combina-a"> 
+            
+            <label for="topping1">
+              <input type="checkbox" id="topping1" name="topping1" value="Cacao Molido">
+              Cacao Molido</label>
+            <label for="topping2">
+              <input type="checkbox" id="topping2" name="topping2" value="Chispas de Chocolate">
+              Chispas de Chocolate</label>
+            <label for="topping3">
+            <input type="checkbox" id="topping3" name="topping3" value="Miel">
+              Miel</label>
+          </div>
+          </div>
+    
+
+          <div class="contacto"> 
+            <h3>Agrega tus datos de contacto</h3>
+            <label for="nombre">
+              Nombre:
+              <input type="text" id="nombre" placeholder="Jose Ramirez A" required class="select-sabor">
+            </label>
+            <label for="telefono"><br>
+              Telefono:
+              <input type="tel" id="telefono" placeholder="2132432" required class="select-sabor">
+            </label>
+            <label for="correo"><br>
+              Correo:
+              <input type="email" id="correo" placeholder="@gmail.com" required class="select-sabor">
+            </label>
+            <label for="correo"><br>
+              Dejan algun comentario:
+              <textarea name="comentario" id="" cols="65" rows="4" class="area">Escribe aqui</textarea>
+            </label>
+            <input type="submit" name="env" id="env" class="area">
+          </div>
+
+        </form>
+
+  <a href="./home.html">regresar</a>
+
+    </main>
+  </body>
+</html>

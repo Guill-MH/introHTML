@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Cabin", sans-serif;
+  background-color: #adccff;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.father {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f8eeff;
+  width: 500px;
+  height: 620px;
+  padding: 15px;
+  border-radius: 5px;
+}
+.logo {
+  display: flex;
+  height: 90px;
+  width: 90px;
+}
+.size {
+  max-width: 100%;
+  height: auto;
+}
+.sabor {
+  display: inline-block;
+  align-items: center;
+  padding: 5px;
+}
+.select-sabor {
+  width: 420px;
+  height: 25px;
+  border-radius: 7px;
+}
+.adorno {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+.adorno-2 {
+  display: flex;
+  padding: 5px;
+  justify-content: space-around;
+}
+.combinacion {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+.combinacion-2 {
+  display: flex;
+  padding: 5px;
+  justify-content: space-around;
+}
+.combina-adornos {
+  display: flex;
+  padding: 5px;
+  flex-direction: column;
+}
+.combina-a {
+  display: flex;
+  padding: 5px;
+  justify-content: space-around;
+}
+.contacto {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 600px) {
+  .main {
+    display: flex;
+    align-items: center;
+  }
+  .sabor {
+    width: 300;
+  }
+  .adorno {
+    width: 300px;
+  }
+  .combinacion {
+    width: 300px;
+  }
+  .combina-adornos {
+    width: 300px;
+  }
+  .contacto {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+  }
+  .area {
+    width: 300px;
+  }
+  .select-sabor {
+    display: flex;
+    width: auto;
+  }
+  .father {
+    height: auto;
+    width: auto;
+  }
+}

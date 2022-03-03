@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    font-family: "Cabin", sans-serif;
+    background-color: #adccff;
+  }
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .father {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f8eeff;
+    width: 500px;
+    height: 620px;
+    padding: 15px;
+    border-radius: 5px;
+  }
+  .hscroll {
+    overflow-x: auto; /* Horizontal */
+    overflow-y: auto; /* Horizontal */
+    width: 100%;
+  }
+  @media screen and (max-width: 600px) {
+    .hscroll{
+        width: 300px;
+    }
+    .father{
+        width: auto;
+    }
+  }
